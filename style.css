@@ -1,0 +1,136 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fcedde;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #232323;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  color: #222525;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-circle {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.profil {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+.profil > h1 {
+  margin-bottom: 20px;
+}
+
+.profil > img {
+  margin-bottom: 20px;
+}
+
+.profil > h2 {
+  margin-bottom: 20px;
+}
+
+.profil > p {
+  line-height: 22px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.white-card {
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  align-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hobbies {
+  padding: 20px;
+}
+
+.icon-social-media {
+  color: #f45d48;
+  font-size: 42px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social {
+  margin-top: 30px;
+  align-content: center;
+  padding: 20px 0;
+}
+
+.icon-social-media a {
+  color: #f45d48;
+}
+
+.icon-social-media a:hover {
+  color: #222525;
+}
+
+.icon-social-media li {
+  display: inline;
+}
+
+.btn-orange {
+  background-color: #f45d48;
+  padding: 20px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.btn-orange:hover {
+  background-color: #232323;
+  color: #ffffff;
+}
+
+/* Media Queries for responsive */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
